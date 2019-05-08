@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA001</color>
+    <color name="colorPrimaryDark">#FB8C00</color>
+    <color name="colorAccent">#FFAB40</color>
+    <color name="colorSplashBg">#E9EAEA</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="logo_init_clr">#FF868686</color>
+    <color name="simple_button_text_clr">#E8E8E8</color>
+
+    <color name="simple_button_bg_clr_1">@color/colorPrimary</color>
+    <color name="simple_button_bg_clr_2">#FFAB40</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="greyLight">#E9EAEA</color>
+
+    <color name="home_bg">#1E2024</color>
+    <color name="auth_bg">@color/home_bg</color>
+    <color name="text_label_clr_on_home_bg">#ACACAC</color>
+
+</resources>
