@@ -4,7 +4,7 @@ object Constants {
     val WORK_NAME = "ProfilePhotoUpdate"
     val UPDATE_PROFILE_WORKER = "UpdateUserProfile"
     val COMPRESS_IMAGE_WORKER = "CompressImageWorker"
-    val PREFS = "NeedCharge"
+    val PREFS = "Test"
     val DATE_FORMAT_PATTERN = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
     val DATE_VIEW_FORMAT_1 = "dd-MM-yyyy"
     val DATE_VIEW_FORMAT_2 = "dd-MMM-yyyy"

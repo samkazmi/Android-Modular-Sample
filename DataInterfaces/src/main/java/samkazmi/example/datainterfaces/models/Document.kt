@@ -1,6 +1,6 @@
 /**
-* NeedCharge Mobile
-* Mobile API for needcharge
+* Test Mobile
+* Mobile API for test
 *
 * 
 * 

@@ -19,7 +19,7 @@ android {
     buildTypes {
         release {
             buildConfigField 'String', 'API_KEY', '"3423v43vv3mn234n32nnn32nnfds32"'
-            buildConfigField 'String', 'BASE_URL', '"http://btq.com/test/api/"'
+            buildConfigField 'String', 'BASE_URL', '"http://test.com/test/api/"'
             minifyEnabled true
             zipAlignEnabled true
             versionNameSuffix '-Release'
@@ -27,7 +27,7 @@ android {
         }
         debug {
             buildConfigField 'String', 'API_KEY', '"Pan_TeRaSyCV5strOJBMbK_1oAXLbw4cb8470"'
-            buildConfigField 'String', 'BASE_URL', '"http://panterasrv.cloudapp.net/btq_development/api/mobile/"'
+            buildConfigField 'String', 'BASE_URL', '"http://test.com/test/api/"'
             applicationIdSuffix '.debug'
             versionNameSuffix '-DEBUG'
             shrinkResources false
@@ -40,7 +40,7 @@ android {
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
             def formattedDate = new Date().format('HH-mm-dd-MMM-YYYY')
-            output.outputFileName = "NeedCharge _V${defaultConfig.versionCode}${defaultConfig.versionNameSuffix}_${formattedDate}.apk"
+            output.outputFileName = "test _V${defaultConfig.versionCode}${defaultConfig.versionNameSuffix}_${formattedDate}.apk"
         }
     }
     compileOptions {
